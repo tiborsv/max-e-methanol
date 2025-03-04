@@ -1,9 +1,10 @@
 # Cost-scaling of large Power-to-Methanol plants supplied with wind power and CO2 from direct air capture: a Chile case study
 
+Tibor Svitnic
 
 ## Overview
 
-This repository contains the code and data used for the analysis presented in the paper [Cost-scaling of large Power-to-Methanol plants supplied with wind power and CO2 from direct air capture: a Chile case study].
+This repository contains the code and data used for the analysis presented in the paper [Cost-scaling of large Power-to-Methanol plants supplied with wind power and CO2 from direct air capture: a Chile case study by Tibor Svitnic and Kai Sundmacher].
 
 
 ## Installation

@@ -1,5 +1,5 @@
-/~$renewable_methanol_2024-05-02.xlsx
-/figure_files/fig_cumul_cap.jpg
-/figure_files/fig_histo_cap.jpg
-/figure_files/fig_histo_startup.jpg
-/figure_files/fig_ptm_world.jpg
+*.jpg
+*.jpeg
+*.pdf
+*.pkl
+*.lp

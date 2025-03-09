@@ -8,7 +8,7 @@ from case_studies import CS_nu, CS_cmp, CS_psm_years, CS_plm_years, CS_plm_years
     CS_plm_years_minCAP_DACL_75, CS_plm_years_minCAP_DACL_95, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50, \
     CS_psm_years_minCAP_MTS_75, CS_psm_years_minCAP_MTS_95
 from scheduling_opti import scheduling_optimization
-from sizing_cases import Sync_WDM, Sync_WD, Sync_W, SizingResults
+from sizing_cases import Sync_WDM, Sync_WD, Sync_W, SizingResults, SizingCase
 import concurrent.futures
 import multiprocessing as mp
 import time
@@ -18,18 +18,23 @@ from grid_calc import grid_calculation
 
 
 def main():
-    CaseStudies_to_run = [CS_psm_years]
-        #[CS_psm_years, CS_plm_years, CS_psm_years_maxCAPscale, CS_plm_years_maxCAPscale]
-    #[CS_plm_years_minCAP_DACL_25, CS_plm_years_minCAP_DACL_50, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50]
+
+    test_run = 1    # switch between demonstration (test) run with small scale designs for quick solution and a run where all the cases in the article are solved (takes a long time)
+    multiproc = 1   # switch to turn on multiprocessing (parallel solution)
+
+    if test_run == 1: # runs a smaller demonstration (test) case
+        CAPgen_ins_array = np.linspace(50, 500,2) * 1000  # [kW] capacities of the energy generation section (output from the generation section)
+        CaseStudies_to_run = [CS_psm_years]
+        SizingCases_to_run = [Sync_WDM]  # sizing cases to be run (designs out of which the best one for a particular capacity and case will be selected)
+
+    else:    # runs all the cases presented in the article
+        CAPgen_ins_array = np.linspace(50, 6000, 14) * 1000
+        CaseStudies_to_run = [CS_psm_years, CS_plm_years, CS_psm_years_maxCAPscale, CS_plm_years_maxCAPscale, CS_plm_years_minCAP_DACL_25, CS_plm_years_minCAP_DACL_50, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50]
+        SizingCases_to_run = [Sync_WDM, Sync_WD, Sync_W]     # sizing cases to be run (designs out of which the best one for a particular capacity and case will be selected)
 
 
-    SizingCases_to_run = [Sync_WDM]#, Sync_WD, Sync_W]                        # sizing cases to be run (designs out of which the best one for a particular capacity and case will be selected)
-
-    CAPgen_ins_array = np.linspace(50, 6000, 14) * 1000    # [kW] capacities of the energy generation section (output from the generation section)
     ratio_wind_solar_array = np.array([1])                                  # [-] ratio of wind and solar generation technologies (currently model set-up fully for wind only (=1) generation)
     pd_nominal = 8                                                          # [MW/km2]  power density of wind turbines (installed/nominal wind capacity), reference value = 8 MW/km2
-
-    multiproc = 1  # switch to turn on multiprocessing (parallel solution)
 
     total_start_time = time.time()
     time_of_run = '{date:%Y-%m-%d_%H-%M-%S}'.format(date=datetime.now())

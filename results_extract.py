@@ -28,7 +28,7 @@ GC_2030_pd_8_sensNslice_1_CableLim_0_MWgrid_50_6000_np_14 = load(open(os.path.jo
 GC_2050_pd_8_sensNslice_1_CableLim_0_MWgrid_50_6000_np_14 = load(open(os.path.join(res_subfolder(), 'GC_2050_pd_8_sensNslice_1_CableLim_0_MWgrid_50_6000_np_14__2025-02-20_20-37-35.pkl'), 'rb'))
 
 # CaseStudies_to_extract = [CS_psm_years, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50]
-CaseStudies_to_extract = [CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50, CS_plm_years_minCAP_DACL_25, CS_plm_years_minCAP_DACL_50]
+CaseStudies_to_extract = [CS_psm_years, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50, CS_plm_years_minCAP_DACL_25, CS_plm_years_minCAP_DACL_50]
 
 # Set general plot settings
 blue_MPI = np.array((51 / 255, 165 / 255, 195 / 255))

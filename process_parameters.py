@@ -461,11 +461,13 @@ if plotting_max_cap_study == 1:
         pem_capex_max_equal_plant_sizes.append(PEM.scale_capex_WEL(i, 1, 1)[1][year])
 
     plt.plot(pem_MWel, pem_capex, color=blue_MPI)
-    plt.plot(pem_MWel, pem_capex_max, color=green_MPI)
-    plt.plot(pem_MWel, pem_capex_max_equal_plant_sizes, color=red_MPI)
+    plt.plot(pem_MWel, pem_capex_max, color=red_MPI)
+    #plt.plot(pem_MWel, pem_capex_max_equal_plant_sizes, color=red_MPI)
     plt.xlabel('PEM capacity [MW$_{el}$]')
     plt.ylabel('PEM capex [USD/kW$_{el}$]')
-    plt.legend(['no max limit', 'max limit', 'max limit, equal plant sizes'], loc='lower right')
+    plt.legend(['no max limit', 'max limit', 'max limit, equal plant sizes'], loc='lower right', fontsize=14)
+
+    #plt.xlim(left=0)
     plt.ylim([0, max(pem_capex)])
     plt.tight_layout()
     fig_name = 'fig_max_scaling_PEM_' + year + '.pdf'
@@ -501,13 +503,16 @@ if plotting_max_cap_study == 1:
 
 
     plt.plot(dac_S_ktCO2_a, dac_S_capex, color=blue_MPI)
-    plt.plot(dac_S_ktCO2_a, dac_S_capex_max, color=green_MPI)
-    plt.plot(dac_S_ktCO2_a, dac_S_capex_max_equal_plant_sizes, color=red_MPI)
+    plt.plot(dac_S_ktCO2_a, dac_S_capex_max, color=red_MPI)
+    #plt.plot(dac_S_ktCO2_a, dac_S_capex_max_equal_plant_sizes, color=red_MPI)
 
     plt.xlabel('DAC-S capacity [kt$_{CO2}$/a]', fontsize=16)
     plt.ylabel('DAC-S capex [USD/(t$_{CO2}$/a)]', fontsize=16)
     plt.legend(['no max limit', 'max limit', 'max limit, equal plant sizes'], fontsize=14)
+
+
     plt.ylim([0, max(dac_S_capex)])
+    #plt.xlim(left=0)
     plt.tight_layout()
     fig_name = 'fig_max_scaling_DAC_S_'+ year + '.pdf'
     fig_name = os.path.join(figure_subfolder(), fig_name)
@@ -528,12 +533,14 @@ if plotting_max_cap_study == 1:
         dac_L_capex_max_equal_plant_sizes.append(DAC_L.scale_capex_DAC(i, 1, 1)[1][year])
 
     plt.plot(dac_L_ktCO2_a, dac_L_capex, color=blue_MPI)
-    plt.plot(dac_L_ktCO2_a, dac_L_capex_max, color=green_MPI)
-    plt.plot(dac_L_ktCO2_a, dac_L_capex_max_equal_plant_sizes, color=red_MPI)
+    plt.plot(dac_L_ktCO2_a, dac_L_capex_max, color=red_MPI, linestyle=':')
+    #plt.plot(dac_L_ktCO2_a, dac_L_capex_max_equal_plant_sizes, color=red_MPI)
 
     plt.xlabel('DAC-L capacity [kt$_{CO2}$/a]')
     plt.ylabel('DAC-L capex [USD/(t$_{CO2}$/a)]')
-    plt.legend(['no max limit', 'max limit', 'max limit, equal plant sizes'])
+    plt.legend(['no max limit', 'max limit', 'max limit, equal plant sizes'], fontsize=14)
+
+    #plt.xlim(left=0)
     plt.ylim([0, max(dac_L_capex)])
     plt.tight_layout()
     fig_name = 'fig_max_scaling_DAC_L_'+ year + '.pdf'

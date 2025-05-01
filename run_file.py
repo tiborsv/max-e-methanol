@@ -3,12 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from utility_functions import res_subfolder, annual_factor
-from case_studies import CS_nu, CS_cmp, CS_psm_years, CS_plm_years, CS_plm_years_maxCAPscale, \
+from case_studies import  CS_psm_years, CS_plm_years, CS_plm_years_maxCAPscale, \
     CS_psm_years_maxCAPscale, CS_plm_years_minCAP_DACL_25, CS_plm_years_minCAP_DACL_50, \
-    CS_plm_years_minCAP_DACL_75, CS_plm_years_minCAP_DACL_95, CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50, \
-    CS_psm_years_minCAP_MTS_75, CS_psm_years_minCAP_MTS_95
+    CS_psm_years_minCAP_MTS_25, CS_psm_years_minCAP_MTS_50
 from scheduling_opti import scheduling_optimization
-from sizing_cases import Sync_WDM, Sync_WD, Sync_W, SizingResults, SizingCase
+from sizing_cases import Sync_WDM, Sync_WD, Sync_W
 import concurrent.futures
 import multiprocessing as mp
 import time

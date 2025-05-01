@@ -142,7 +142,7 @@ def extract_results(m, plotting, resampling):
     df_CAP['GEN'] = [m.CAPgen[t].value for t in m.t]
 
 
-    df_CAP_m = df_CAP[['WEL', 'MTS', 'DAC', 'CGH2_in', 'CGH2_out', 'CO2tank_in', 'CO2tank_out']]
+    df_CAP_m = df_CAP[['WEL', 'DAC', 'MTS', 'CGH2_in', 'CGH2_out', 'CO2tank_in', 'CO2tank_out']]
     df_CAP_e = df_CAP[['GEN', 'Curt', 'HP_amb', 'HP_int', 'BAT_in', 'BAT_out', 'TES_in', 'TES_out']]
 
     S_val = {(s, t): m.S[s, t].value for s in m.s for t in m.t}
@@ -177,13 +177,13 @@ def extract_results(m, plotting, resampling):
         darkening = 60
         yellow_MPI = np.array([236 - darkening, 233 - darkening, 212 - darkening]) / 255
 
-        colors = [blue_MPI, black, red_MPI]
+        colors = [blue_MPI, red_MPI, black]
 
 
         fig, ax = plt.subplots(2,2, figsize=(18, 8), dpi=600)
         counter=0
         for column in df_CAP_m.columns[0:3]:
-            ax[0, 0].plot(df_CAP_m.index, df_CAP_m[column], marker='o', label=column, color=colors[counter], alpha=0.75)
+            ax[0, 0].plot(df_CAP_m.index, df_CAP_m[column], marker='o', label=column, color=colors[counter], alpha=0.5)
             counter += 1
 
         #ax.set_title('Capacity profile [kmol/h]', fontsize=20)
@@ -195,7 +195,7 @@ def extract_results(m, plotting, resampling):
 
         counter = 0
         for column in df_CAP_m.columns[0:3]:
-            ax[0, 1].plot(df_CAP_m.index, df_CAP_m[column], marker='o', label=column, color=colors[counter], alpha=0.75)
+            ax[0, 1].plot(df_CAP_m.index, df_CAP_m[column], marker='o', label=column, color=colors[counter], alpha=0.5)
             counter += 1
 
         # ax.set_title('Capacity profile [kmol/h]', fontsize=20)
@@ -211,7 +211,7 @@ def extract_results(m, plotting, resampling):
 
         counter = 0
         for column in df_S.columns[0:3]:
-            ax[1, 0].plot(df_S.index, df_S[column]/1000, marker='o', label=column, color=colors[counter], alpha=0.75)
+            ax[1, 0].plot(df_S.index, df_S[column]/1000, marker='o', label=column, color=colors[counter], alpha=0.5)
             counter += 1
 
         # ax.set_title('Capacity profile [kmol/h]', fontsize=20)
@@ -224,7 +224,7 @@ def extract_results(m, plotting, resampling):
 
         counter = 0
         for column in df_S.columns[0:3]:
-            ax[1, 1].plot(df_S.index, df_S[column]/1000, marker='o', label=column, color=colors[counter], alpha=0.75)
+            ax[1, 1].plot(df_S.index, df_S[column]/1000, marker='o', label=column, color=colors[counter], alpha=0.5)
             counter += 1
 
         # ax.set_title('Capacity profile [kmol/h]', fontsize=20)

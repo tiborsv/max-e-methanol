@@ -4,10 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f26f6f-25a6-43a3-b982-22523d2e8468" name="Changes" comment="Added requirements.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/max-e-methanol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/max-e-methanol.iml" afterDir="false" />
+    <list default="true" id="03f26f6f-25a6-43a3-b982-22523d2e8468" name="Changes" comment="added testing run switch to separate solving all the cases and a quick demonstration (test) solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2020_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2020_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2020_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2020_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2030_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2030_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2030_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2030_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2050_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2050_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2050_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1l1m1_y2050_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2020_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2030_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_CAPgen_C_p1s1m1_y2050_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility_2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility_2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility_2050.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DAC_L_flexibility_2050.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2020_minCAP_DACL_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2020_minCAP_DACL_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2020_minCAP_DACL_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2020_minCAP_DACL_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2030_minCAP_DACL_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2030_minCAP_DACL_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2030_minCAP_DACL_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2030_minCAP_DACL_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2050_minCAP_DACL_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2050_minCAP_DACL_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2050_minCAP_DACL_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1l1m1_y2050_minCAP_DACL_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020_minCAP_MTS_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020_minCAP_MTS_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020_minCAP_MTS_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2020_minCAP_MTS_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030_minCAP_MTS_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030_minCAP_MTS_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030_minCAP_MTS_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2030_minCAP_MTS_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050_minCAP_MTS_25__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050_minCAP_MTS_25__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050_minCAP_MTS_50__50_MW.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_DESIGN_C_p1s1m1_y2050_minCAP_MTS_50__50_MW.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility_2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility_2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility_2050.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_MTS_flexibility_2050.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_2050.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_L_2050.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_2020.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_2020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_2050.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_maxCAPscale_study_DAC_S_2050.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2020_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2020_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2020_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2020_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2030_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2030_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2030_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2030_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2050_minCAP_DACL_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2050_minCAP_DACL_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2050_minCAP_DACL_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1l1m1_y2050_minCAP_DACL_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2020_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2030_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_minCAP_MTS_25_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_minCAP_MTS_25_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_minCAP_MTS_50_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_prod_C_p1s1m1_y2050_minCAP_MTS_50_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_DACL_25_p1l1m1_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_DACL_25_p1l1m1_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_DACL_50_p1l1m1_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_DACL_50_p1l1m1_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_MTS_25_p1s1m1_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_MTS_25_p1s1m1_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_MTS_50_p1s1m1_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_minCAP_MTS_50_p1s1m1_maxPgrid_6000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_p1s1m1_maxPgrid_6000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/figure_files/fig_years_LCOMeOH_CS_YEARS_p1s1m1_maxPgrid_6000.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parameter_preliminary_calc.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/parameter_preliminary_calc.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/process_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/results_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduling_opti_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduling_opti_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +103,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.run_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_file_grid.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/svitnic/PycharmProjects/max-e-methanol&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.process_parameters.executor": "Run",
+    "Python.results_extract.executor": "Run",
+    "Python.run_file.executor": "Run",
+    "Python.run_file_grid.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/svitnic/PycharmProjects/max-e-methanol",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -76,7 +143,10 @@
       <option name="presentableId" value="Default" />
       <updated>1741015194002</updated>
       <workItem from="1741015209612" duration="851000" />
-      <workItem from="1741071757840" duration="5125000" />
+      <workItem from="1741071757840" duration="8420000" />
+      <workItem from="1741289885829" duration="956000" />
+      <workItem from="1741522854739" duration="591000" />
+      <workItem from="1746097675918" duration="4866000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -102,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741079379450</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update gitignore">
+      <option name="closed" value="true" />
+      <created>1741079569491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741079569491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,10 +190,13 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Updated gitignore" />
     <MESSAGE value="Added requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requirements.txt" />
+    <MESSAGE value="Update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/max_e_methanol$results_extract.coverage" NAME="results_extract Coverage Results" MODIFIED="1746101304143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/max_e_methanol$run_file_grid.coverage" NAME="run_file_grid Coverage Results" MODIFIED="1741074550885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/max_e_methanol$run_file.coverage" NAME="run_file Coverage Results" MODIFIED="1741074182232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/max_e_methanol$process_parameters.coverage" NAME="process_parameters Coverage Results" MODIFIED="1746099401182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/max_e_methanol$run_file.coverage" NAME="run_file Coverage Results" MODIFIED="1746100692536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
